@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 
-// ========================================
-// ログイン画面（Before：汚いコード）
-// ========================================
-// home: の中にこのウィジェットを指定するだけで呼び出せます。
-// 例： home: const MessyLoginScreen(),
+// テスト用ログイン情報
+// ユーザー名: admin
+// パスワード: password123
 
 class MessyLoginScreen extends StatefulWidget {
   const MessyLoginScreen({super.key});
@@ -145,7 +143,3 @@ class _MessyLoginScreenState extends State<MessyLoginScreen> {
     );
   }
 }
-
-// テスト用ログイン情報
-// ユーザー名: admin
-// パスワード: password123
